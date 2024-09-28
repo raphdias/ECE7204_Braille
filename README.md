@@ -7,3 +7,4 @@ This is the ECE7204 Braille Board Project
 ESP32-PICO
 https://www.dfrobot.com/product-1941.html
 
+https://www.sparkfun.com/products/10293

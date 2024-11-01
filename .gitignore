@@ -2,3 +2,4 @@ ispy
 __pycache__
 *.egg-info
 .vscode
+.venv

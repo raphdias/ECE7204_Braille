@@ -1,0 +1,19 @@
+[project]
+name = 'ispy'
+version = '0.99'
+description = 'Python project for Braille Board in ECE7204'
+readme = 'README.md'
+requires-python = '>=3.11'
+authors = [{ name = 'Raphael D.' }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ['flake8', 'build']
+test = ['parameterized~=0.9.0']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools.packages.find]
+where = ['src']
